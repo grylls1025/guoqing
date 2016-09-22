@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin:0;
+    border: 0;
+}
+body,html{
+
+    margin:0 auto;
+}
+
+
+#head img.hi{
+    display: block;
+    width:100%;
+}
+#present img{
+    display: block;
+    width:100%;
+}
+#head{
+    width: 100% ;
+    /*background-color: #acd;*/
+    overflow: hidden;
+    position: relative;
+}
+#nav{
+    list-style-type: none;
+    /*margin-top: 50px;*/
+    margin-left: -512px;
+    /*margin:0 0 0 */
+    width:1024px;
+    height:33px;
+
+    font-size: 15px;
+    color: #da4040;
+    position: absolute;
+    top: 45px;
+    left: 60%;
+}
+#nav li{
+    width: 77px;
+    height: 33px;
+    float: left;
+    /*margin-right:15px;*/
+    text-align: center;
+    line-height: 33px;
+}
+#nav li#sy{
+    margin-left:200px;
+    width: 60px;
+}
+#nav li a{
+    text-decoration: none;
+    color: #da4040;
+}
+#head #nav li#hot{
+
+}
+#head #nav li#hot:hover{
+    background-color: #da4040;
+    border-radius: 5px;
+    height: 33px;
+
+}
+#head #nav li#hot a{
+    color:#da4040;
+    height: 33px;
+}
+#head #nav li#hot a:hover{
+    color: #f9ff5c;
+    height: 33px;
+}
+#present{
+    width: 100%;
+    position: relative;
+}
+#present a{
+    width: 140px;
+    height: 50px;
+    background-color: #acd;
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+}
+#present a#a1{
+    top:380px;
+    left:420px;
+}
+#present a#a2{
+    top:380px;
+    left:605px;
+}
+#present a#a3{
+    top:380px;
+    left:790px;
+}
+#pan{
+    width: 100%;
+
+    position: relative;
+}
+#pan .pi{
+    display: block;
+    width:100%;
+}
+
+
+
+#pan #dpan{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    /*line-height: 378px;*/
+    background:url("../images/dpan.jpg") no-repeat center;
+    /*border:#acd solid 10px;*/
+    background-size:cover;
+    /*transform:rotate(30deg);*/
+    /*-ms-transform:rotate(30deg); 	!* IE 9 *!*/
+    /*-moz-transform:rotate(30deg); 	!* Firefox *!*/
+    /*-webkit-transform:rotate(30deg); !* Safari 和 Chrome *!*/
+    /*-o-transform:rotate(30deg); 	!* Opera *!*/
+}
+#pan #xpan{
+    position: absolute;
+    top: 83px;
+    left: 83px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: url('../images/xpan.jpg');
+    -webkit-background-size:;
+    background-size:cover;
+}
+#hhh{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left:420px;
+    top: 220px;
+    border-radius: 50%;
+}
+#pan #sj{
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid #fff;
+    position: absolute;
+    top:-20px;
+    left:18px;
+    opacity: 0.8;
+}
+#sign{
+    width: 100%;
+    height: 802px;
+    position:relative;
+}
+#sign img{
+    display: block;
+    width:100%;
+}
+#sign #mysign{
+    width: 200px;
+    height: 80px;
+    background-color: red;
+    position:absolute;
+    top:360px;
+    left:680px;
+    opacity: 0;
+}
+#sign div#s{
+    position: absolute;
+    opacity: 0;
+    left:480px;
+    top:270px;
+    width: 150px;
+    height: 50px;
+    background-color: #acd;
+}
+#foot{
+
+    width: 100%;
+    height: 838px;
+    overflow: hidden;
+}
+#foot p{
+    margin-top:100px;
+    margin-left: 633px;
+    font-size: 17px;
+}
+#logo{
+    position:absolute;
+    left: 100px;
+    top:30px;
+    width:258px;
+    height: 70px;
+    display: inline-block;
+
+}
